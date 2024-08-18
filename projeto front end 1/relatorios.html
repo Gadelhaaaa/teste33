@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu-hamburguer">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="atividades.html">Atividades</a></li>
+                    <li><a href="membros.html">Membros</a></li>
+                    <li><a href="pagamentos.html">Pagamentos</a></li>
+                    <li><a href="relatorios.html">Relatórios</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="relatorio-membros">
+            <h2>Relatório de Membros</h2>
+            <button type="button" id="gerar-relatorio-membros">Gerar Relatório</button>
+            <pre id="resultado-relatorio-membros"></pre>
+        </section>
+        <section id="relatorio-pagamentos">
+            <h2>Relatório de Pagamentos</h2>
+            <button type="button" id="gerar-relatorio-pagamentos">Gerar Relatório</button>
+            <pre id="resultado-relatorio-pagamentos"></pre>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Membros</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu-hamburguer">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="atividades.html">Atividades</a></li>
+                    <li><a href="membros.html">Membros</a></li>
+                    <li><a href="pagamentos.html">Pagamentos</a></li>
+                    <li><a href="relatorios.html">Relatórios</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form id="form-cadastro-membro">
+            <input type="text" id="nome-membro" name="nome-membro" placeholder="Nome do Membro" required>
+            <input type="email" id="email-membro" name="email-membro" placeholder="Email do Membro" required>
+    <input type="tel" id="telefone-membro" name="telefone-membro" placeholder="Telefone do Membro" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <section id="lista-membros">
+            <h2>Membros Cadastrados</h2>
+            <ul id="membros"></ul>
+        </section>
+        <section id="busca-membros">
+            <h2>Buscar Membros</h2>
+            <input type="text" id="busca" placeholder="Buscar...">
+        </section>
+    </main>
+
+</body>
+</html>
